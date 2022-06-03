@@ -48,7 +48,7 @@ const main = () => {
   console.log("Belanjaan Anda adalah:");
   console.log(listBelanjaan?.(dataBelanjaan)?.join("\n"));
   console.log(
-    "\nTotal Belanjaan Anda adalah " + totalBelanjaan?.(dataBelanjaan)
+    "\nTotal Belanjaan Anda adalah Rp. " + totalBelanjaan?.(dataBelanjaan)
   );
 };
 
